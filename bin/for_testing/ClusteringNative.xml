@@ -1,0 +1,383 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ClusteringNative</name>
+    </assembly>
+    <members>
+        <member name="T:ClusteringNative.cluster">
+            <summary>
+            The cluster class provides a CLS compliant, Object (native) interface to the MATLAB
+            functions contained in the files:
+            <newpara></newpara>
+            D:\Google Drive\Research\Grasshopper Plugin
+            Scan-to-BIM\Clustering\Matlab\G_CRF_wall_decoding.m
+            </summary>
+            <remarks>
+            @Version 4.0
+            </remarks>
+        </member>
+        <member name="M:ClusteringNative.cluster.#cctor">
+            <summary internal= "true">
+            The static constructor instantiates and initializes the MATLAB Runtime instance.
+            </summary>
+        </member>
+        <member name="M:ClusteringNative.cluster.#ctor">
+            <summary>
+            Constructs a new instance of the cluster class.
+            </summary>
+        </member>
+        <member name="M:ClusteringNative.cluster.Finalize">
+            <summary internal= "true">
+            Class destructor called by the CLR garbage collector.
+            </summary>
+        </member>
+        <member name="M:ClusteringNative.cluster.Dispose">
+            <summary>
+            Frees the native resources associated with this object
+            </summary>
+        </member>
+        <member name="M:ClusteringNative.cluster.Dispose(System.Boolean)">
+            <summary internal= "true">
+            Internal dispose function
+            </summary>
+        </member>
+        <member name="M:ClusteringNative.cluster.G_CRF_wall_decoding">
+             <summary>
+             Provides a single output, 0-input Objectinterface to the G_CRF_wall_decoding
+             MATLAB function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             #function UGM_Decode_ICM UGM_makeEdgeStruct
+             </remarks>
+             <returns>An Object containing the first output argument.</returns>
+            
+        </member>
+        <member name="M:ClusteringNative.cluster.G_CRF_wall_decoding(System.Object)">
+             <summary>
+             Provides a single output, 1-input Objectinterface to the G_CRF_wall_decoding
+             MATLAB function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             #function UGM_Decode_ICM UGM_makeEdgeStruct
+             </remarks>
+             <param name="nStates">Input argument #1</param>
+             <returns>An Object containing the first output argument.</returns>
+            
+        </member>
+        <member name="M:ClusteringNative.cluster.G_CRF_wall_decoding(System.Object,System.Object)">
+             <summary>
+             Provides a single output, 2-input Objectinterface to the G_CRF_wall_decoding
+             MATLAB function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             #function UGM_Decode_ICM UGM_makeEdgeStruct
+             </remarks>
+             <param name="nStates">Input argument #1</param>
+             <param name="fn1">Input argument #2</param>
+             <returns>An Object containing the first output argument.</returns>
+            
+        </member>
+        <member name="M:ClusteringNative.cluster.G_CRF_wall_decoding(System.Object,System.Object,System.Object)">
+             <summary>
+             Provides a single output, 3-input Objectinterface to the G_CRF_wall_decoding
+             MATLAB function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             #function UGM_Decode_ICM UGM_makeEdgeStruct
+             </remarks>
+             <param name="nStates">Input argument #1</param>
+             <param name="fn1">Input argument #2</param>
+             <param name="fn2">Input argument #3</param>
+             <returns>An Object containing the first output argument.</returns>
+            
+        </member>
+        <member name="M:ClusteringNative.cluster.G_CRF_wall_decoding(System.Object,System.Object,System.Object,System.Object)">
+             <summary>
+             Provides a single output, 4-input Objectinterface to the G_CRF_wall_decoding
+             MATLAB function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             #function UGM_Decode_ICM UGM_makeEdgeStruct
+             </remarks>
+             <param name="nStates">Input argument #1</param>
+             <param name="fn1">Input argument #2</param>
+             <param name="fn2">Input argument #3</param>
+             <param name="fe1">Input argument #4</param>
+             <returns>An Object containing the first output argument.</returns>
+            
+        </member>
+        <member name="M:ClusteringNative.cluster.G_CRF_wall_decoding(System.Object,System.Object,System.Object,System.Object,System.Object)">
+             <summary>
+             Provides a single output, 5-input Objectinterface to the G_CRF_wall_decoding
+             MATLAB function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             #function UGM_Decode_ICM UGM_makeEdgeStruct
+             </remarks>
+             <param name="nStates">Input argument #1</param>
+             <param name="fn1">Input argument #2</param>
+             <param name="fn2">Input argument #3</param>
+             <param name="fe1">Input argument #4</param>
+             <param name="fe2">Input argument #5</param>
+             <returns>An Object containing the first output argument.</returns>
+            
+        </member>
+        <member name="M:ClusteringNative.cluster.G_CRF_wall_decoding(System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)">
+             <summary>
+             Provides a single output, 6-input Objectinterface to the G_CRF_wall_decoding
+             MATLAB function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             #function UGM_Decode_ICM UGM_makeEdgeStruct
+             </remarks>
+             <param name="nStates">Input argument #1</param>
+             <param name="fn1">Input argument #2</param>
+             <param name="fn2">Input argument #3</param>
+             <param name="fe1">Input argument #4</param>
+             <param name="fe2">Input argument #5</param>
+             <param name="si">Input argument #6</param>
+             <returns>An Object containing the first output argument.</returns>
+            
+        </member>
+        <member name="M:ClusteringNative.cluster.G_CRF_wall_decoding(System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)">
+             <summary>
+             Provides a single output, 7-input Objectinterface to the G_CRF_wall_decoding
+             MATLAB function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             #function UGM_Decode_ICM UGM_makeEdgeStruct
+             </remarks>
+             <param name="nStates">Input argument #1</param>
+             <param name="fn1">Input argument #2</param>
+             <param name="fn2">Input argument #3</param>
+             <param name="fe1">Input argument #4</param>
+             <param name="fe2">Input argument #5</param>
+             <param name="si">Input argument #6</param>
+             <param name="sj">Input argument #7</param>
+             <returns>An Object containing the first output argument.</returns>
+            
+        </member>
+        <member name="M:ClusteringNative.cluster.G_CRF_wall_decoding(System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)">
+             <summary>
+             Provides a single output, 8-input Objectinterface to the G_CRF_wall_decoding
+             MATLAB function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             #function UGM_Decode_ICM UGM_makeEdgeStruct
+             </remarks>
+             <param name="nStates">Input argument #1</param>
+             <param name="fn1">Input argument #2</param>
+             <param name="fn2">Input argument #3</param>
+             <param name="fe1">Input argument #4</param>
+             <param name="fe2">Input argument #5</param>
+             <param name="si">Input argument #6</param>
+             <param name="sj">Input argument #7</param>
+             <param name="w">Input argument #8</param>
+             <returns>An Object containing the first output argument.</returns>
+            
+        </member>
+        <member name="M:ClusteringNative.cluster.G_CRF_wall_decoding(System.Int32)">
+             <summary>
+             Provides the standard 0-input Object interface to the G_CRF_wall_decoding MATLAB
+             function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             #function UGM_Decode_ICM UGM_makeEdgeStruct
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:ClusteringNative.cluster.G_CRF_wall_decoding(System.Int32,System.Object)">
+             <summary>
+             Provides the standard 1-input Object interface to the G_CRF_wall_decoding MATLAB
+             function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             #function UGM_Decode_ICM UGM_makeEdgeStruct
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <param name="nStates">Input argument #1</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:ClusteringNative.cluster.G_CRF_wall_decoding(System.Int32,System.Object,System.Object)">
+             <summary>
+             Provides the standard 2-input Object interface to the G_CRF_wall_decoding MATLAB
+             function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             #function UGM_Decode_ICM UGM_makeEdgeStruct
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <param name="nStates">Input argument #1</param>
+             <param name="fn1">Input argument #2</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:ClusteringNative.cluster.G_CRF_wall_decoding(System.Int32,System.Object,System.Object,System.Object)">
+             <summary>
+             Provides the standard 3-input Object interface to the G_CRF_wall_decoding MATLAB
+             function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             #function UGM_Decode_ICM UGM_makeEdgeStruct
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <param name="nStates">Input argument #1</param>
+             <param name="fn1">Input argument #2</param>
+             <param name="fn2">Input argument #3</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:ClusteringNative.cluster.G_CRF_wall_decoding(System.Int32,System.Object,System.Object,System.Object,System.Object)">
+             <summary>
+             Provides the standard 4-input Object interface to the G_CRF_wall_decoding MATLAB
+             function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             #function UGM_Decode_ICM UGM_makeEdgeStruct
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <param name="nStates">Input argument #1</param>
+             <param name="fn1">Input argument #2</param>
+             <param name="fn2">Input argument #3</param>
+             <param name="fe1">Input argument #4</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:ClusteringNative.cluster.G_CRF_wall_decoding(System.Int32,System.Object,System.Object,System.Object,System.Object,System.Object)">
+             <summary>
+             Provides the standard 5-input Object interface to the G_CRF_wall_decoding MATLAB
+             function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             #function UGM_Decode_ICM UGM_makeEdgeStruct
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <param name="nStates">Input argument #1</param>
+             <param name="fn1">Input argument #2</param>
+             <param name="fn2">Input argument #3</param>
+             <param name="fe1">Input argument #4</param>
+             <param name="fe2">Input argument #5</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:ClusteringNative.cluster.G_CRF_wall_decoding(System.Int32,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)">
+             <summary>
+             Provides the standard 6-input Object interface to the G_CRF_wall_decoding MATLAB
+             function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             #function UGM_Decode_ICM UGM_makeEdgeStruct
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <param name="nStates">Input argument #1</param>
+             <param name="fn1">Input argument #2</param>
+             <param name="fn2">Input argument #3</param>
+             <param name="fe1">Input argument #4</param>
+             <param name="fe2">Input argument #5</param>
+             <param name="si">Input argument #6</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:ClusteringNative.cluster.G_CRF_wall_decoding(System.Int32,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)">
+             <summary>
+             Provides the standard 7-input Object interface to the G_CRF_wall_decoding MATLAB
+             function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             #function UGM_Decode_ICM UGM_makeEdgeStruct
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <param name="nStates">Input argument #1</param>
+             <param name="fn1">Input argument #2</param>
+             <param name="fn2">Input argument #3</param>
+             <param name="fe1">Input argument #4</param>
+             <param name="fe2">Input argument #5</param>
+             <param name="si">Input argument #6</param>
+             <param name="sj">Input argument #7</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:ClusteringNative.cluster.G_CRF_wall_decoding(System.Int32,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)">
+             <summary>
+             Provides the standard 8-input Object interface to the G_CRF_wall_decoding MATLAB
+             function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             #function UGM_Decode_ICM UGM_makeEdgeStruct
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <param name="nStates">Input argument #1</param>
+             <param name="fn1">Input argument #2</param>
+             <param name="fn2">Input argument #3</param>
+             <param name="fe1">Input argument #4</param>
+             <param name="fe2">Input argument #5</param>
+             <param name="si">Input argument #6</param>
+             <param name="sj">Input argument #7</param>
+             <param name="w">Input argument #8</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:ClusteringNative.cluster.G_CRF_wall_decoding(System.Int32,System.Object[]@,System.Object[],System.Object[])">
+             <summary>
+             Provides an interface for the G_CRF_wall_decoding function in which the input and
+             output
+             arguments are specified as an array of Objects.
+             </summary>
+             <remarks>
+             This method will allocate and return by reference the output argument
+             array.<newpara></newpara>
+             M-Documentation:
+             #function UGM_Decode_ICM UGM_makeEdgeStruct
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return</param>
+             <param name= "argsOut">Array of Object output arguments</param>
+             <param name= "argsIn">Array of Object input arguments</param>
+             <param name= "varArgsIn">Array of Object representing variable input
+             arguments</param>
+            
+        </member>
+        <member name="M:ClusteringNative.cluster.WaitForFiguresToDie">
+             <summary>
+             This method will cause a MATLAB figure window to behave as a modal dialog box.
+             The method will not return until all the figure windows associated with this
+             component have been closed.
+             </summary>
+             <remarks>
+             An application should only call this method when required to keep the
+             MATLAB figure window from disappearing.  Other techniques, such as calling
+             Console.ReadLine() from the application should be considered where
+             possible.</remarks>
+            
+        </member>
+    </members>
+</doc>
