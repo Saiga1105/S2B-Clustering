@@ -1,8 +1,10 @@
-# title
+# Scan-to-BIM Clustering repository
 
-some explenation
+This toolbox includes functions for the clustering of wall geometry.
+It contains the training and testing of Conditional Random Fields for the grouping of wall mesh segments based on a number of descriptors.
+The sample files contain some example wall segment descriptors.
 
-### Use
+### contribute
 There are several large files in this repository (matlab .dll's and sample files)
 Use github's Large File System (lfs) to push changes to the origin.
 
@@ -10,19 +12,11 @@ Use github's Large File System (lfs) to push changes to the origin.
 	git lfs track '*.dll'
 	git lfs track '*.mat'
 
-2) push large files to fls storage
-	git lfs push --all origin master
-	
-3) push pointers to github
-	git push -u origin master
-	
-2) commit and push changes
-	git add .
-	git commit -m 'add new large files'
-	git push (git push --set-upstream origin master if origin isn't upstream yet)
- 
 ### license 
-mention my stuff
+If you use this software in a publication, please cite the work using the following information:
+
+Bassier M., Vergauwen M. (2019) Clustering of Wall Geometry from Unstructured Point Clouds Using Conditional Random Fields. 
+Remote Sensing, 11(13), 1586; https://doi.org/10.3390/rs11131586
 
 ### dependencies
 M. Schmidt. UGM: A Matlab toolbox for probabilistic undirected graphical models. http://www.cs.ubc.ca/~schmidtm/Software/UGM.html, 2007.
